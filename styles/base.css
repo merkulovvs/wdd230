@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); */
 
 * {
     margin: 0;
@@ -6,7 +6,10 @@
     box-sizing: border-box;
 }
 
-header, footer {background-color: rgb(191, 243, 233)}
+header,
+footer {
+    background-color: rgb(191, 243, 233)
+}
 
 nav {
     background-color: #bbc8f1;
@@ -18,7 +21,8 @@ nav a {
     display: block;
     color: #0d424d;
     font-weight: 700;
-    font-family: 'Special Elite', serif;;
+    font-family: 'Special Elite', serif;
+    ;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -32,8 +36,6 @@ nav .active {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
 }
-
-
 
 ul {
     list-style-type: none;
@@ -66,7 +68,6 @@ h1 {
 .card p {
     padding: .25rem 1rem;
 }
-
 
 .cards h2 {
     background-color: #bbc8f1;
