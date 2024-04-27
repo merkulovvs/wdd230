@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {background-color: rgb(191, 243, 233)}
+
+nav {
+    background-color: #bbc8f1;
+    margin: 0 auto;
+
+}
+
+nav a {
+    display: block;
+    color: #0d424d;
+    font-weight: 700;
+    font-family: 'Special Elite', serif;;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Special Elite', serif;
+    color: #0d424d;
+    text-align: center;
+    margin: 2rem;
+}
+
+.cards {
+    margin: 1rem 2vw;
+}
+
+.cards section {
+    border: 2px solid #ccc;
+    background-color: rgb(191, 243, 233);
+    border-radius: 10px;
+    color: #0d424d;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.card li {
+    padding: .25rem 1rem;
+}
+
+.card p {
+    padding: .25rem 1rem;
+}
+
+
+.cards h2 {
+    background-color: #bbc8f1;
+    font-family: 'Special Elite', serif;
+    padding: 5px;
+}
+
+footer p {
+    padding: .25rem 1rem;
+    text-align: center;
+}
