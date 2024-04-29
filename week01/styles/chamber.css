@@ -1,0 +1,15 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+:root {
+    --primary-color: #BFF3E9;
+    --seccondary-color: #001B2E;
+    --accen1-color: #247BA0;
+    --accent2-color: #93827F;
+
+    --primary-font: 'Roboto', sans-serif;
+}
