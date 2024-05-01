@@ -1,6 +1,6 @@
 * {
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: var(--primary-font);
 }
@@ -12,4 +12,32 @@
     --accent2-color: #93827F;
 
     --primary-font: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--seccondary-color);
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    background-color: var(--accent2-color);
+    margin: 1rem auto;
+    padding: 5px;
+}
+
+h2, h3 {
+    color: var(--seccondary-color);
+    padding: 5px;
+}
+
+section {
+background-color: var(--primary-color);
+}
+
+p {
+    padding: 5px;
 }
