@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+:root {
+    --primary-color: #BFF3E9;
+    --seccondary-color: #001B2E;
+    --accen1-color: #247BA0;
+    --accent2-color: #93827F;
+
+    --primary-font: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--seccondary-color);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+
+h1 {
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+nav {
+    background-color: var(--accent2-color);
+    margin: 0 auto;
+}
+
+nav a {
+    display: none;
+    color: var(--seccondary-color);
+    font-weight: 700;
+    font-family: var(--primary-font);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.homepage-banner {
+    opacity: .7;
+    /* position: relative; */
+}
+
+#banner {
+    width: 100%;
+    max-height: 200px;
+}
+
+
+footer {
+    background-color: var(--seccondary-color);
+    color: white;
+}
+
+footer p {
+    padding: .25rem 1rem;
+    text-align: center;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1.3rem;
+    right: 2rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "✖";
+}
+
+.open a {
+    display: block;
+}
+
+.invitation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.invitation a {
+    color: var(--seccondary-color);
+    font-weight: 700;
+    background-color: var(--accent2-color);
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-family: var(--primary-font);
+    text-decoration: none;
+}
+
+.sections {
+    margin: 1rem 2vw;
+}
+
+.card {
+    border: 2px solid #ccc;
+    background-color: rgb(191, 243, 233);
+    border-radius: 10px;
+    color: var(--seccondary-color);
+    /* overflow: hidden; */
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.invitation {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.sections {
+    grid-column: 2/3;
+    grid-row: 2;
+}

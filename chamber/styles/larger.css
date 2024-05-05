@@ -1,0 +1,53 @@
+@media only screen and (min-width: 42rem) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    #menu {
+		display: none;
+	}
+
+    nav {
+		flex-direction: row;
+	}
+
+	nav a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    .main-home {
+        display: grid;
+        grid-template-columns: 0.2fr 1.5fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .homepage-banner {
+        grid-column: 1/3;
+        grid-row: 1;
+
+    }
+
+    .invitation {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .sections {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+
+    .card {
+        margin: 10px;
+        padding: 10px;      
+    }
+
+
+}
