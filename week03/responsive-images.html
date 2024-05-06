@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 | Week03 | Responsive images</title>
+    <meta name="description" content="WDD 230 week 3 learning assignment: Responsive Images">
+    <meta name="author" content="Viktor Merkulov">
+    <link rel="stylesheet" href="styles\responsive-images.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 230 - Week 03 - Learning Activities - Responsive images</h1>
+    </header>
+    <nav></nav>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images\hero-small.webp" media="(min-width: 500px)">
+                <source srcset="images\hero-medium.webp" media="(min-width: 1000px)">
+                <img src="images\hero-large.webp" alt="Kyiv Ukraine Temple" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+    <footer>©Viktor Merkulov | BYU-Idaho | WDD 230</footer>
+</body>
+<html>
