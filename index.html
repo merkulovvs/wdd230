@@ -23,7 +23,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Viktor Merkulov profile picture" width="75" height="100">
+        <img src="images/profile.webp" alt="Viktor Merkulov profile picture" width="75" height="100">
         <span>Vikor Merkulov</span>
         <div id="mode">⚫</div>
     </header>
@@ -37,6 +37,16 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/kyiv-ukraine-lds-temple-400-650.webp" media="(max-width: 400px)">
+                <img src="images/kyiv-ukraine-lds-temple-1260-630.webp" alt="Kyiv Ukraine Temple" width="1200"
+                    height="600">
+            </picture>
+            <div class="templename">
+                <p>Kyiv Ukraine Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="cards">
             <section class="card">
@@ -51,7 +61,8 @@
                             Commerce Home Page</a></li>
                     <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a
                             href="week03/styles/lazyload.html">Lazyload</a> | <a
-                            href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/bom.html">localStorage</a></li>
+                            href="week03/responsive-images.html">Responsive Images</a> | <a
+                            href="week03/bom.html">localStorage</a></li>
                     <li>Week 04: <a href="#"></a></li>
                     <li>Week 05: <a href="#"></a></li>
                     <li>Week 06: <a href="#"></a></li>
@@ -63,11 +74,15 @@
                 <div>
                     <p>Place</p>
                     <p>Weather</p>
-                    <p>Number of visits to the page</p>
+                    <p>Number of visits to the page: <span class="visits"></span></p>
                 </div>
             </section>
         </div>
     </main>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1048.7922749806291!2d30.395185965197687!3d50.40465018064699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1715194149260!5m2!1sen!2sde"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>&copy;<span id="currentYear"></span> | Viktor Merkulov | Ukraine <img src="images/ukraine-flag.webp"
                 alt="Flag of Ukraine" width="30" height="20"></p>
@@ -76,6 +91,7 @@
     <script src="scripts/respmenu.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 
 </html>

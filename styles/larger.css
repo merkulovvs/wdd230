@@ -1,4 +1,29 @@
 @media only screen and (min-width: 40rem) {
+    main {
+        margin: 1rem auto;
+    }
+   
+   .hero {
+    margin: 0 auto;
+    position: relative;
+   }
+
+   .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+   }
+
+   .templename {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2em;
+    font-family: 'Special Elite', serif;
+    top: 100px;
+    left: 100px;
+   }   
+
+    }
     .cards {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -30,4 +55,7 @@
 		flex: 1 1 100%;
 	}
 
-}
+    iframe {
+        display: block;
+        margin: 10px auto;
+    }

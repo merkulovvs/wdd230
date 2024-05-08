@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header,
 footer {
     background-color: rgb(191, 243, 233)
@@ -44,6 +45,27 @@ h1 {
     text-align: center;
     margin: 2rem;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero picture {
+    width: 100%;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.templename {
+    position: absolute;
+    font-weight: 700;
+    font-family: 'Special Elite', serif;
+    top: 30px;
+    left: 30px;
+   }
 
 .cards {
     margin: 1rem 2vw;
