@@ -4,12 +4,29 @@
     box-sizing: border-box;
 }
 
-
 header,
 footer {
     background-color: rgb(191, 243, 233)
 }
 
+.hero {
+    margin: 0 auto;
+    position: relative;
+   }
+   .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+   }
+   .templename {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2em;
+    font-family: 'Special Elite', serif;
+    top: 100px;
+    left: 100px;
+   }   
+   
 nav {
     background-color: #bbc8f1;
     margin: 0 auto;
@@ -46,26 +63,6 @@ h1 {
     margin: 2rem;
 }
 
-.hero {
-    position: relative;
-}
-
-.hero picture {
-    width: 100%;
-}
-.hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.templename {
-    position: absolute;
-    font-weight: 700;
-    font-family: 'Special Elite', serif;
-    top: 30px;
-    left: 30px;
-   }
 
 .cards {
     margin: 1rem 2vw;

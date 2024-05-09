@@ -2,28 +2,29 @@
     main {
         margin: 1rem auto;
     }
-   
-   .hero {
-    margin: 0 auto;
-    position: relative;
-   }
 
-   .hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-   }
-
-   .templename {
-    position: absolute;
-    font-weight: 700;
-    font-size: 2em;
-    font-family: 'Special Elite', serif;
-    top: 100px;
-    left: 100px;
-   }   
-
+    .hero {
+        position: relative;
     }
+
+    .hero picture {
+        width: 100%;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .templename {
+        position: absolute;
+        font-weight: 700;
+        font-family: 'Special Elite', serif;
+        top: 30px;
+        left: 30px;
+    }
+
     .cards {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -43,19 +44,21 @@
     }
 
     #menu {
-		display: none;
-	}
+        display: none;
+    }
 
     nav {
-		flex-direction: row;
-	}
+        flex-direction: row;
+    }
 
-	nav a {
-		display: block;
-		flex: 1 1 100%;
-	}
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
 
     iframe {
         display: block;
         margin: 10px auto;
     }
+
+}
