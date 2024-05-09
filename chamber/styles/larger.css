@@ -49,5 +49,34 @@
         padding: 10px;      
     }
 
+    .discover-main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin: 0 auto;
+    }
+    .discover-sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 1/2;
+    }
+    .discover-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 2/3;
+    }
+    .label {
+        display: block;
+        width: 175px;
+        font-weight: 700;
+        color: rgb(156, 33, 33);
+        text-align: center;
+        margin-right: 10px;
+    }
+    .discover-content figure:hover {
+        box-shadow: 1px 1px 10px black;
+    }
+
 
 }
