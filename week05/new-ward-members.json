@@ -1,0 +1,23 @@
+{
+    "familyName": "Johnson",
+    "dateMovedIn": "14.03.2022",
+    "numberOfFamilyMembers": 3,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Dave Johnson",
+            "gender": "male",
+            "birthDate": "20.02.1996"
+        },
+        {
+            "name": "Lisa Johnson",
+            "gender": "female",
+            "birthDate": "14.10.1997"
+        },
+        {
+            "name": "Parker Johnson",
+            "gender": "male",
+            "birthDate": "07.07.2022"
+        }
+    ]
+}
