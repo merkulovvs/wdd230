@@ -12,21 +12,23 @@ footer {
 .hero {
     margin: 0 auto;
     position: relative;
-   }
-   .hero img {
+}
+
+.hero img {
     width: 100%;
     height: auto;
     display: block;
-   }
-   .templename {
+}
+
+.templename {
     position: absolute;
     font-weight: 700;
     font-size: 2em;
     font-family: 'Special Elite', serif;
     top: 100px;
     left: 100px;
-   }   
-   
+}
+
 nav {
     background-color: #bbc8f1;
     margin: 0 auto;
@@ -130,4 +132,45 @@ footer p img {
 
 .open a {
     display: block;
+}
+
+form {
+    margin: 1rem 0 1rem 2rem;
+}
+
+label {
+    display: block;
+    padding-top: 2rem;
+    color: #052930;
+    font-size: 1.5rem;
+}
+
+.join-form input[type="text"],
+.join-form input[type="email"],
+.join-form input[type="telephone"],
+.join-form select,
+.join-form textarea {
+    display: block;
+    background-color: lightgray;
+    border-radius: 3px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.join-form input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#efecec, #d7d2d2);
+    color: var(--label-color);
+    font-size: 1.5rem;
+    border-radius: 3px;
+    padding: .8rem;
+    width: 20%;
+    max-width: 400px;
+    min-width: 173.25px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.join-form input[type="submit"]:hover {
+    background-image: linear-gradient(#5a5555, #d7d2d2);
 }
