@@ -23,43 +23,45 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/profile.webp" alt="Viktor Merkulov profile picture" width="75" height="100">
-        <span>Vikor Merkulov</span>
-        <div id="mode">⚫</div>
-    </header>
-    <button id="menu"></button>
-    <nav class="navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="#">Site Plan</a></li>
-            <li><a href="form.html" class="active">Form</a></li>
-        </ul>
-    </nav>
     <main>
+        <header>
+            <img src="images/profile.webp" alt="Viktor Merkulov profile picture" width="75" height="100">
+            <span>Vikor Merkulov</span>
+            <div id="mode">⚫</div>
+        </header>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
         <h1>Pattern Validation</h1>
-        <form method="get" action="record.html">
-            <label>Username
-                <input type="text" id="" name="" required>
+        <form method="get" action="record.html" class="web-form">
+            <label>Username*
+                <input type="text" id="username" name="username" required>
             </label>
-            <label>Password
-                <input type="password" id="" pattern="[a-zA-Z0-9]{8,}"
+            <label>Password*
+                <input type="password" id="pass1" name="pass1" pattern="[a-zA-Z0-9]{8,}"
                     title="value must be at least eight (8) characters long and can only be alpha-numeric" required>
             </label>
-            <label>Repeat password
-                <input type="text" type="password" id="" title="must match the first Password field input value"
+            <label>Repeat password*
+                <input type="password" id="pass2" name="pass2" title="must match the first Password field input value"
                     required>
             </label>
-            <label>Email
-                <input type="email" id="" name="" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+            <div id="errorMsg"></div>
+            <label>Email*
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
                     title="Please enter a valid email address" required>
             </label>
-            <label>Pager Rating
-                <input type="range" id="" name="" min="0" max="10" value="0" step="1" list="rangevalues">
+
+            <label>Page Rating <div id="range">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
             </label>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Send My Form">
         </form>
     </main>
     <footer>
