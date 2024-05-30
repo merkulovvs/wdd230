@@ -154,7 +154,7 @@ label {
 
 .join-form input[type="text"],
 .join-form input[type="email"],
-.join-form input[type="telephone"],
+.join-form input[type="tel"],
 .join-form select,
 .join-form textarea {
     display: block;
