@@ -133,3 +133,8 @@ footer p img {
 .open a {
     display: block;
 }
+
+#weather-icon {
+    display: inline-block;
+    vertical-align: middle;
+}

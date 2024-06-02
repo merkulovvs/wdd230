@@ -1,0 +1,109 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Victor-M-the-bold/pen/jORJboB",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Victor-M-the-bold/pen/KKYLojd",
+                    "title": "JS Pen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM Application"
+                },
+                {
+                    "url": "chamber/index.html",
+                    "title": "The Chamber of Commerce Home Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/styles/lazyload.html",
+                    "title": "Lazyload"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "localStorage"
+                },
+                {
+                    "url": "chamber/discover.html",
+                    "title": "The Chamber of Commerce Discover Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Victor-M-the-bold/pen/KKLNmzg",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/css-combinators-exercise.jpg",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Table"
+                },
+                {
+                    "url": "week04/index.html",
+                    "title": "HTML Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Victor-M-the-bold/pen/PovzGGg",
+                    "title": "CSS Pseudo-elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}
