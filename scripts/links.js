@@ -15,17 +15,32 @@ getLinks();
 const displayLinks = (weeks) => {
     weeks.forEach((entry) => {
         let weekEntry = document.createElement('li');
-        let link = document.createElement('a');
 
         weekEntry.textContent = `${entry.week}: `;
-        
-        link.setAttribute('href', entry.week.url);
-        link.textContent = `${entry.week.title}`;
 
+        entry.links.forEach((link, index) => {
 
-        weekEntry.appendChild(link);
+            //skip divider pipe " | " for the first link in an array
+            if (index === 0) {
+                let linkItem = document.createElement('a');
+                linkItem.setAttribute('href', link.url);
+                linkItem.textContent = `${link.title}`;
+
+                weekEntry.appendChild(linkItem);
+                // add a devider pipe " | " before all the rest of the links in an array
+            } else {
+
+                let linkItem = document.createElement('a');
+                const divider = document.createTextNode(' | ');
+                linkItem.setAttribute('href', link.url);
+                linkItem.textContent = `${link.title}`;
+
+                weekEntry.appendChild(divider);
+                weekEntry.appendChild(linkItem);
+            }
+        });
+
         actvivities.appendChild(weekEntry);
-        
 
     });
 }
