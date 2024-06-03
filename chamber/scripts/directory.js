@@ -1,29 +1,29 @@
-const url = "https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json";
+const url = "https://merkulovvs.github.io/wdd230/chamber/data/members.json";
 
 const cards = document.querySelector("#cards");
 
-async function getProphetData() {
+async function getMembersData() {
     const response = await fetch(url);
     const data = await response.json();
     // console.table(data.prophets);
-    displayProphets(data.prophets);
+    displayMembers(data.members);
 }
 
-getProphetData();
+getMembersData();
 
-const displayProphets = (prophets) => {
-    prophets.forEach((prophet) => {
+const displayProphets = (members) => {
+    members.forEach((member) => {
         let card = document.createElement("section");
-        let fullName = document.createElement("h2");
-        let birthDate = document.createElement("p");
-        let birthPlace = document.createElement("p");
-        let portrait = document.createElement("img");
+        let companyName = document.createElement("h2");
+        let companyAddress = document.createElement("p");
+        let companyWebsite = document.createElement("a");
+        let companyLogo = document.createElement("img");
 
-        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
-        birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
-        birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
+        companyName.textContent = `${member.companyname}`;
+        companyAddress.textContent = `${member.address}`;
+        companyWebsite.textContent = `${member.website}`;
 
-        portrait.setAttribute("src", prophet.imageurl);
+        companyLogo.setAttribute("src", prophet.imageurl);
         portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");
