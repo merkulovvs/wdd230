@@ -5,7 +5,7 @@
             "address": "Im Technologiepark 1, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172 - 1234567",
             "website": "https://www.skynettechnologies.com/about-us",
-            "companylogo": "",
+            "companylogo": "images/skynet_technologies.png",
             "membershiplevel": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "123 Spruce Lane, Evergreen, CO 80439",
             "phone": "+49 (0) 6172 - 9876543",
             "website": "https://whisperingpinescampground.net/rates/cabins/",
-            "companylogo": "",
+            "companylogo": "images/whispering_pines_cabins.png",
             "membershiplevel": "Bronze"
         },
         {
@@ -21,7 +21,7 @@
             "address": "(Delivery Only - Various Locations within Bad Homburg)",
             "phone": "+49 (0) 6172 - 8765432",
             "website": "https://www.galacticpizza.com/build-your-own-pizza",
-            "companylogo": "",
+            "companylogo": "images/galactic_pizza_delivery.png",
             "membershiplevel": "Bronze"
         },
         {
@@ -29,7 +29,7 @@
             "address": "1 Temporal Way, Anywhen, Everywhere",
             "phone": "() CALL-PAST (-2255-7278)",
             "website": "http://chronos.ws/",
-            "companylogo": "",
+            "companylogo": "images/chronos_time_travel_tours.png",
             "membershiplevel": "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Louisenstraße 62, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172-123456",
             "website": "https://www.harmonybotanicals.co/",
-            "companylogo": "",
+            "companylogo": "images/harmony_botanicals.png",
             "membershiplevel": "Silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Kaiser-Friedrich-Promenade 67, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6173 - 1122334",
             "website": "https://rhymetymebooks.com/shop/ ",
-            "companylogo": "",
+            "companylogo": "images/rhyme_tyme_creative_studios.png",
             "membershiplevel": "Gold"
         },
         {
@@ -53,15 +53,15 @@
             "address": "Schirngasse 7, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6173 - 5566778",
             "website": "https://www.youtube.com/@thepixelpainter1915/",
-            "companylogo": "",
+            "companylogo": "images/the_pixel_painters.png",
             "membershiplevel": "Silver"
         },
         {
-            "companylogo": "images/wunderbar_tours_logo.png",
             "companyname": "Wunderbär Tours",
             "address": "Elisabethenstraße 6, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172 - 3456789",
             "website": "https://germanyiswunderbar.com/",
+            "companylogo": "images/wunderbar_tours_logo.png",
             "membershiplevel": "Bronze"
         }
     ]

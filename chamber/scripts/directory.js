@@ -30,15 +30,14 @@ const displayMembers = (members) => {
         companyLogo.setAttribute("src", member.companylogo);
         companyLogo.setAttribute("alt", `Company logo of ${member.companyname}`);
         companyLogo.setAttribute("loading", "lazy");
-        companyLogo.setAttribute("width", "340");
-        companyLogo.setAttribute("height", "440");       
+        // companyLogo.setAttribute("width", "250");
+        // companyLogo.setAttribute("height", "200");       
 
         card.appendChild(companyLogo);
         card.appendChild(companyName);
         card.appendChild(companyAddress);
         card.appendChild(companyPhone);
-        card.appendChild(companyWebsite);
-        card.appendChild(companyLogo);        
+        card.appendChild(companyWebsite);        
 
         cards.appendChild(card);    
     });
