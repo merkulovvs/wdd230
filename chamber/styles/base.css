@@ -182,6 +182,19 @@ label {
     background-image: linear-gradient(#5a5555, #d7d2d2);
 }
 
+.cards-menu {
+    margin: 1rem auto;
+    border: 1px solid var(--accent2-color);
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.cards-menu button {
+    padding: 1rem;
+    font-weight: 700;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -208,4 +221,32 @@ p {
 .grid img {
     width: 100%;
     margin-bottom: .5rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section > * {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section h2 {
+    font-size: 1rem;
+}
+
+.list section:nth-child(even) {
+    background-color: var(--accent2-color);
 }
