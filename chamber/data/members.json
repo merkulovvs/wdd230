@@ -4,7 +4,7 @@
             "companyname": "Skynet Technologies",
             "address": "Im Technologiepark 1, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172 - 1234567",
-            "website": "https://www.skynettechnologies.com/about-us",
+            "website": "www.skynettechnologies.com",
             "companylogo": "images/skynet_technologies.png",
             "membershiplevel": "Gold"
         },
@@ -12,7 +12,7 @@
             "companyname": "Whispering Pines Cabins",
             "address": "123 Spruce Lane, Evergreen, CO 80439",
             "phone": "+49 (0) 6172 - 9876543",
-            "website": "https://whisperingpinescampground.net/rates/cabins/",
+            "website": "www.whisperingpinescampground.net",
             "companylogo": "images/whispering_pines_cabins.png",
             "membershiplevel": "Bronze"
         },
@@ -20,7 +20,7 @@
             "companyname": "Galactic Pizza Delivery",
             "address": "(Delivery Only - Various Locations within Bad Homburg)",
             "phone": "+49 (0) 6172 - 8765432",
-            "website": "https://www.galacticpizza.com/build-your-own-pizza",
+            "website": "www.galacticpizza.com",
             "companylogo": "images/galactic_pizza_delivery.png",
             "membershiplevel": "Bronze"
         },
@@ -28,7 +28,7 @@
             "companyname": "Chronos Time Travel Tours",
             "address": "1 Temporal Way, Anywhen, Everywhere",
             "phone": "() CALL-PAST (-2255-7278)",
-            "website": "http://chronos.ws/",
+            "website": "chronos.ws",
             "companylogo": "images/chronos_time_travel_tours.png",
             "membershiplevel": "Gold"
         },
@@ -36,7 +36,7 @@
             "companyname": "Harmony Botanicals",
             "address": "Louisenstraße 62, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172-123456",
-            "website": "https://www.harmonybotanicals.co/",
+            "website": "www.harmonybotanicals.co",
             "companylogo": "images/harmony_botanicals.png",
             "membershiplevel": "Silver"
         },
@@ -44,7 +44,7 @@
             "companyname": "Rhyme Tyme Creative Studios",
             "address": "Kaiser-Friedrich-Promenade 67, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6173 - 1122334",
-            "website": "https://rhymetymebooks.com/shop/ ",
+            "website": "www.rhymetymebooks.com",
             "companylogo": "images/rhyme_tyme_creative_studios.png",
             "membershiplevel": "Gold"
         },
@@ -52,7 +52,7 @@
             "companyname": "The Pixel Painters",
             "address": "Schirngasse 7, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6173 - 5566778",
-            "website": "https://www.youtube.com/@thepixelpainter1915/",
+            "website": "www.thepixelpainter.de",
             "companylogo": "images/the_pixel_painters.png",
             "membershiplevel": "Silver"
         },
@@ -60,7 +60,7 @@
             "companyname": "Wunderbär Tours",
             "address": "Elisabethenstraße 6, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172 - 3456789",
-            "website": "https://germanyiswunderbar.com/",
+            "website": "www.germanyiswunderbar.com",
             "companylogo": "images/wunderbar_tours_logo.png",
             "membershiplevel": "Bronze"
         }
