@@ -52,7 +52,7 @@
             "companyname": "The Pixel Painters",
             "address": "Schirngasse 7, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6173 - 5566778",
-            "website": "https://www.youtube.com/@thepixelpainter1915/videos",
+            "website": "https://www.youtube.com/@thepixelpainter1915/",
             "companylogo": "",
             "membershiplevel": "Silver"
         },
@@ -60,8 +60,8 @@
             "companyname": "Wunderbär Tours",
             "address": "Elisabethenstraße 6, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172 - 3456789",
-            "website": "https://www.youtube.com/@thepixelpainter1915/videos",
-            "companylogo": "https://germanyiswunderbar.com/",
+            "website": "https://germanyiswunderbar.com/",
+            "companylogo": "chamber/images/wunderbar_tours_logo.png",
             "membershiplevel": "Bronze"
         }
     ]
