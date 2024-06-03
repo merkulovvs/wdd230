@@ -57,11 +57,11 @@
             "membershiplevel": "Silver"
         },
         {
+            "companylogo": "images/wunderbar_tours_logo.png",
             "companyname": "Wunderbär Tours",
             "address": "Elisabethenstraße 6, 61352 Bad Homburg, Germany",
             "phone": "+49 (0) 6172 - 3456789",
             "website": "https://germanyiswunderbar.com/",
-            "companylogo": "images/wunderbar_tours_logo.png",
             "membershiplevel": "Bronze"
         }
     ]
