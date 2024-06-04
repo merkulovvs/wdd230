@@ -6,7 +6,7 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
-const navLinks = document.querySelectorAll('.nav-link');
+const navLinks = document.querySelector('.nav-link');
 
 navLinks.forEach(link => {
 	link.addEventListener('click', function () {
