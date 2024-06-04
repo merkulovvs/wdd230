@@ -34,10 +34,17 @@ const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=50.23&
 const forecastCard = document.querySelector('.forecast');
 
 async function getForecast() {
-
-    const response = await fetch(forecastUrl);
-    const data = await response.json();
-    displayForecast(data.list);
+    try {
+        const response = await fetch(forecastUrl);
+        if (response.ok) {
+            const data = await response.json();
+            displayForecast(data.list);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
 
     // try {
     // const response = await fetch(forecastUrl);
@@ -72,7 +79,7 @@ const displayForecast = (list) => {
 
         dayTxt.textContent = `${dayName}`;
         temperature.textContent = `${day.main.temp}\u00B0C`;
-        
+
         weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${day.weather[0].icon}.png`);
         weatherIcon.setAttribute('alt', `${day.weather.main}`);
 
