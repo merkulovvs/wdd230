@@ -63,9 +63,11 @@ getForecast();
 
 const displayForecast = (list) => {
 
-    const threeDaysForecast = list
-        .filter((_item, index) => index % 8 === 0)
-        .slice(0, 3);
+    // reduce 3 hours (8 times a day) forecast to 24 hours (1 time a day) forecast
+    const fiveDaysOnce = list.filter((_item,index) => index % 8 === 0);
+    
+    //reduce number of days to 3
+    const threeDaysForecast = fiveDaysOnce.slice(0,3);
 
     threeDaysForecast.forEach((day) => {
 
